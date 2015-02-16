@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D01FDAA1A9231FA009D6E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */; };
+		3D01FDAC1A9231FA009D6E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDAB1A9231FA009D6E4B /* ViewController.swift */; };
+		3D01FDAF1A9231FA009D6E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D01FDAD1A9231FA009D6E4B /* Main.storyboard */; };
+		3D01FDB11A9231FA009D6E4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D01FDB01A9231FA009D6E4B /* Images.xcassets */; };
+		3D01FDB41A9231FA009D6E4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D01FDB21A9231FA009D6E4B /* LaunchScreen.xib */; };
+		3D01FDC01A9231FD009D6E4B /* MotionSicknessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDBF1A9231FD009D6E4B /* MotionSicknessTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D01FDBA1A9231FD009D6E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D01FD9C1A9231F9009D6E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D01FDA31A9231FA009D6E4B;
+			remoteInfo = MotionSickness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D01FDA41A9231FA009D6E4B /* MotionSickness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionSickness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D01FDA81A9231FA009D6E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D01FDAB1A9231FA009D6E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D01FDAE1A9231FA009D6E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D01FDB01A9231FA009D6E4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D01FDB31A9231FA009D6E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D01FDB91A9231FD009D6E4B /* MotionSicknessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionSicknessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D01FDBE1A9231FD009D6E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D01FDBF1A9231FD009D6E4B /* MotionSicknessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSicknessTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D01FDA11A9231FA009D6E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D01FDB61A9231FD009D6E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D01FD9B1A9231F9009D6E4B = {
+			isa = PBXGroup;
+			children = (
+				3D01FDA61A9231FA009D6E4B /* MotionSickness */,
+				3D01FDBC1A9231FD009D6E4B /* MotionSicknessTests */,
+				3D01FDA51A9231FA009D6E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D01FDA51A9231FA009D6E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D01FDA41A9231FA009D6E4B /* MotionSickness.app */,
+				3D01FDB91A9231FD009D6E4B /* MotionSicknessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D01FDA61A9231FA009D6E4B /* MotionSickness */ = {
+			isa = PBXGroup;
+			children = (
+				3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */,
+				3D01FDAB1A9231FA009D6E4B /* ViewController.swift */,
+				3D01FDAD1A9231FA009D6E4B /* Main.storyboard */,
+				3D01FDB01A9231FA009D6E4B /* Images.xcassets */,
+				3D01FDB21A9231FA009D6E4B /* LaunchScreen.xib */,
+				3D01FDA71A9231FA009D6E4B /* Supporting Files */,
+			);
+			path = MotionSickness;
+			sourceTree = "<group>";
+		};
+		3D01FDA71A9231FA009D6E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D01FDA81A9231FA009D6E4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D01FDBC1A9231FD009D6E4B /* MotionSicknessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D01FDBF1A9231FD009D6E4B /* MotionSicknessTests.swift */,
+				3D01FDBD1A9231FD009D6E4B /* Supporting Files */,
+			);
+			path = MotionSicknessTests;
+			sourceTree = "<group>";
+		};
+		3D01FDBD1A9231FD009D6E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D01FDBE1A9231FD009D6E4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D01FDA31A9231FA009D6E4B /* MotionSickness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D01FDC31A9231FD009D6E4B /* Build configuration list for PBXNativeTarget "MotionSickness" */;
+			buildPhases = (
+				3D01FDA01A9231FA009D6E4B /* Sources */,
+				3D01FDA11A9231FA009D6E4B /* Frameworks */,
+				3D01FDA21A9231FA009D6E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionSickness;
+			productName = MotionSickness;
+			productReference = 3D01FDA41A9231FA009D6E4B /* MotionSickness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D01FDB81A9231FD009D6E4B /* MotionSicknessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D01FDC61A9231FD009D6E4B /* Build configuration list for PBXNativeTarget "MotionSicknessTests" */;
+			buildPhases = (
+				3D01FDB51A9231FD009D6E4B /* Sources */,
+				3D01FDB61A9231FD009D6E4B /* Frameworks */,
+				3D01FDB71A9231FD009D6E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D01FDBB1A9231FD009D6E4B /* PBXTargetDependency */,
+			);
+			name = MotionSicknessTests;
+			productName = MotionSicknessTests;
+			productReference = 3D01FDB91A9231FD009D6E4B /* MotionSicknessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D01FD9C1A9231F9009D6E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "William Judd";
+				TargetAttributes = {
+					3D01FDA31A9231FA009D6E4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3D01FDB81A9231FD009D6E4B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3D01FDA31A9231FA009D6E4B;
+					};
+				};
+			};
+			buildConfigurationList = 3D01FD9F1A9231F9009D6E4B /* Build configuration list for PBXProject "MotionSickness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D01FD9B1A9231F9009D6E4B;
+			productRefGroup = 3D01FDA51A9231FA009D6E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D01FDA31A9231FA009D6E4B /* MotionSickness */,
+				3D01FDB81A9231FD009D6E4B /* MotionSicknessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D01FDA21A9231FA009D6E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D01FDAF1A9231FA009D6E4B /* Main.storyboard in Resources */,
+				3D01FDB41A9231FA009D6E4B /* LaunchScreen.xib in Resources */,
+				3D01FDB11A9231FA009D6E4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D01FDB71A9231FD009D6E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D01FDA01A9231FA009D6E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D01FDAC1A9231FA009D6E4B /* ViewController.swift in Sources */,
+				3D01FDAA1A9231FA009D6E4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D01FDB51A9231FD009D6E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D01FDC01A9231FD009D6E4B /* MotionSicknessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D01FDBB1A9231FD009D6E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D01FDA31A9231FA009D6E4B /* MotionSickness */;
+			targetProxy = 3D01FDBA1A9231FD009D6E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D01FDAD1A9231FA009D6E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D01FDAE1A9231FA009D6E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D01FDB21A9231FA009D6E4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D01FDB31A9231FA009D6E4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D01FDC11A9231FD009D6E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D01FDC21A9231FD009D6E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D01FDC41A9231FD009D6E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionSickness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D01FDC51A9231FD009D6E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionSickness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D01FDC71A9231FD009D6E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotionSicknessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionSickness.app/MotionSickness";
+			};
+			name = Debug;
+		};
+		3D01FDC81A9231FD009D6E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotionSicknessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionSickness.app/MotionSickness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D01FD9F1A9231F9009D6E4B /* Build configuration list for PBXProject "MotionSickness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D01FDC11A9231FD009D6E4B /* Debug */,
+				3D01FDC21A9231FD009D6E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D01FDC31A9231FD009D6E4B /* Build configuration list for PBXNativeTarget "MotionSickness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D01FDC41A9231FD009D6E4B /* Debug */,
+				3D01FDC51A9231FD009D6E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D01FDC61A9231FD009D6E4B /* Build configuration list for PBXNativeTarget "MotionSicknessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D01FDC71A9231FD009D6E4B /* Debug */,
+				3D01FDC81A9231FD009D6E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D01FD9C1A9231F9009D6E4B /* Project object */;
+}
