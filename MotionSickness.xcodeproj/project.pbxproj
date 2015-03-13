@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D01FDAA1A9231FA009D6E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */; };
-		3D01FDAC1A9231FA009D6E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDAB1A9231FA009D6E4B /* ViewController.swift */; };
 		3D01FDAF1A9231FA009D6E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D01FDAD1A9231FA009D6E4B /* Main.storyboard */; };
 		3D01FDB11A9231FA009D6E4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D01FDB01A9231FA009D6E4B /* Images.xcassets */; };
 		3D01FDB41A9231FA009D6E4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D01FDB21A9231FA009D6E4B /* LaunchScreen.xib */; };
 		3D01FDC01A9231FD009D6E4B /* MotionSicknessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDBF1A9231FD009D6E4B /* MotionSicknessTests.swift */; };
+		3D01FDCA1A9232DB009D6E4B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01FDC91A9232DB009D6E4B /* TableViewController.swift */; };
+		3DDA7B231A924B3600CA4019 /* DeltaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA7B221A924B3600CA4019 /* DeltaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		3D01FDA41A9231FA009D6E4B /* MotionSickness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionSickness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D01FDA81A9231FA009D6E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D01FDAB1A9231FA009D6E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D01FDAE1A9231FA009D6E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D01FDB01A9231FA009D6E4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D01FDB31A9231FA009D6E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3D01FDB91A9231FD009D6E4B /* MotionSicknessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionSicknessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D01FDBE1A9231FD009D6E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D01FDBF1A9231FD009D6E4B /* MotionSicknessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSicknessTests.swift; sourceTree = "<group>"; };
+		3D01FDC91A9232DB009D6E4B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3DDA7B221A924B3600CA4019 /* DeltaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeltaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,9 @@
 		3D01FDA61A9231FA009D6E4B /* MotionSickness */ = {
 			isa = PBXGroup;
 			children = (
-				3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */,
-				3D01FDAB1A9231FA009D6E4B /* ViewController.swift */,
+				3D01FDC91A9232DB009D6E4B /* TableViewController.swift */,
+				3DDA7B221A924B3600CA4019 /* DeltaView.swift */,
 				3D01FDAD1A9231FA009D6E4B /* Main.storyboard */,
-				3D01FDB01A9231FA009D6E4B /* Images.xcassets */,
-				3D01FDB21A9231FA009D6E4B /* LaunchScreen.xib */,
 				3D01FDA71A9231FA009D6E4B /* Supporting Files */,
 			);
 			path = MotionSickness;
@@ -90,6 +90,9 @@
 		3D01FDA71A9231FA009D6E4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D01FDA91A9231FA009D6E4B /* AppDelegate.swift */,
+				3D01FDB01A9231FA009D6E4B /* Images.xcassets */,
+				3D01FDB21A9231FA009D6E4B /* LaunchScreen.xib */,
 				3D01FDA81A9231FA009D6E4B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D01FDAC1A9231FA009D6E4B /* ViewController.swift in Sources */,
 				3D01FDAA1A9231FA009D6E4B /* AppDelegate.swift in Sources */,
+				3D01FDCA1A9232DB009D6E4B /* TableViewController.swift in Sources */,
+				3DDA7B231A924B3600CA4019 /* DeltaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				3D01FDC51A9231FD009D6E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D01FDC61A9231FD009D6E4B /* Build configuration list for PBXNativeTarget "MotionSicknessTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				3D01FDC81A9231FD009D6E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
